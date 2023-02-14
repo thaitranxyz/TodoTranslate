@@ -1,0 +1,4 @@
+<h3>todolist</h3>
+<mat-checkbox *ngFor="let todo of todos">{{ todo.content }}</mat-checkbox>
+<div class="todoItem" *ngFor="let todo of todos">{{ todo.content }}</div>
+<p *ngIf="todos.length == 0">No todos yet</p>

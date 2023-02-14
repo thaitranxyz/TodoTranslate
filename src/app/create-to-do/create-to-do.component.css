@@ -1,0 +1,15 @@
+form {
+  text-align: center;
+}
+
+mat-form-field,
+textarea {
+  width: 30%;
+  text-align: center;
+}
+mat-success {
+}
+
+.add-to-do-btn {
+  margin-left: 1em;
+}

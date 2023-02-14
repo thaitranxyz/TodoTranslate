@@ -1,0 +1,15 @@
+<form (submit)="onAddTodo(todoForm)" #todoForm="ngForm">
+  <mat-form-field>
+    <input
+      matInput
+      type="text"
+      name="content"
+      ngModel
+      required
+      placeholder="Add an item"
+    />
+  </mat-form-field>
+  <button class="add-to-do-btn" mat-raised-button color="primary" type="submit">
+    Submit
+  </button>
+</form>

@@ -1,0 +1,10 @@
+mat-checkbox {
+  text-align: center;
+}
+
+.todoItem {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 40%;
+  overflow-x: scroll;
+}
